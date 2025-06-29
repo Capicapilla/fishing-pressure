@@ -1,4 +1,3 @@
-import React from 'react';
 import especies from '../data/especies'; 
 
 const EspeciesViewer = () => {
