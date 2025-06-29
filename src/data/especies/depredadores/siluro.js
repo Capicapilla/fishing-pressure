@@ -1,6 +1,7 @@
 const siluro = {
     value:"siluro",
     label:"Siluro",
+    img: new URL('../../../assets/especies/siluro.webp', import.meta.url).href,
     habitat: "Grandes ríos y embalses con aguas profundas, turbias y cálidas. Frecuente en el Ebro y sus afluentes; En Auge en río Guadalquivir. Suele descansar en el fondo o junto a estructuras sumergidas.",
     profundidadPorEstacion: {
         primavera: "2–5 m",

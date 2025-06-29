@@ -1,6 +1,7 @@
 const blackBass = {
     value:"blackbass",
     label:"Black Bass",
+    img: new URL('../../../assets/especies/blackbass.webp', import.meta.url).href,
     habitat: "Embalses, lagunas y ríos lentos con cobertura vegetal, estructuras sumergidas y aguas templadas. Le gusta ocultarse en sombra o cerca de obstáculos.",
     profundidadPorEstacion: {
         primavera: "1–2.5 m",

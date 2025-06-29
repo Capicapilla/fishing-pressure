@@ -2,6 +2,7 @@
 const lucioPerca = {
     value:"lucioperca",
     label:"Lucio Perca",
+    img: new URL('../../../assets/especies/lucioperca.jpg', import.meta.url).href,
     habitat: "Embalses profundos, lagos y grandes ríos con aguas claras y oxigenadas. Prefiere estructuras sumergidas y zonas con poca luz.",
     profundidadPorEstacion: {
         primavera: "2–4 m",

@@ -1,7 +1,10 @@
+import React from 'react';
+import EspeciesViewer from './components/EspeciesViewer';
+
 function App() {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <EspeciesViewer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 const lucio = {
     value:"lucio",
     label:"Lucio",
+    img: new URL('../../../assets/especies/lucio.webp', import.meta.url).href,
     habitat: "Embalses, lagos y ríos de corriente lenta, con abundante vegetación sumergida y aguas frías o templadas.",
     profundidadPorEstacion: {
         primavera: "1.5–3 m",

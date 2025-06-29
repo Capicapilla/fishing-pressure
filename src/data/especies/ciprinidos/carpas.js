@@ -1,7 +1,8 @@
 const carpaComun = 
     {
-        value: "carpa", 
+        value: "carpa-comun", 
         label:"Carpa Común",
+        img: new URL('../../../assets/especies/carpa-comun.webp', import.meta.url).href,
         habitat:"Embalses y ríos lentos con fondos fangosos o arenosos, rica vegetación y temperatura templada.",
         profundidadPorEstacion: {
             primavera: "1.5–2.5 m",
@@ -27,6 +28,7 @@ const carpaRoyal =
     {
         value:"carpa-royal", 
         label:"Carpa Royal",
+        img: new URL('../../../assets/especies/carpa-royal.webp', import.meta.url).href,
         habitat:"Aguas templadas y tranquilas. Prefiere zonas menos profundas con coberturas naturales.",
         profundidadPorEstacion: {
             primavera: "1 – 2 m",
@@ -51,6 +53,7 @@ const carpaKoi =
     {
     value:"carpa-koi", 
     label:"Carpa Koi",
+    img: new URL('../../../assets/especies/carpa-koi.webp', import.meta.url).href,
     habitat: "Aguas tranquilas, cálidas y claras. Frecuente en estanques o aguas privadas.",
     profundidadPorEstacion: {
         primavera: "1–2 m",

@@ -1,6 +1,7 @@
 const trucha = {
     value:"trucha",
     label:"Trucha Común",
+    img: new URL('../../../assets/especies/trucha.webp', import.meta.url).href,
     habitat: "Ríos y arroyos de aguas frías, oxigenadas y corrientes rápidas. Prefiere fondos de grava y sombra natural.",
     profundidadPorEstacion: {
         primavera: "0.5–1.5 m",

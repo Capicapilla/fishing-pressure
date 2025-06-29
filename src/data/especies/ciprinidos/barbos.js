@@ -3,6 +3,7 @@
 const barboComun = {
     value:"barbo-comun", 
     label:"Barbo Común",
+    img: new URL('../../../assets/especies/barbo-comun.webp', import.meta.url).href,
     habitat: "Ríos de corriente media a fuerte, con fondos de grava o piedras. Presente en aguas oxigenadas y limpias.",
     profundidadPorEstacion: {
         "primavera": "1–2 m",
@@ -24,6 +25,8 @@ const barboComun = {
 const barboComizo = {
     value:"barbo-comizo",
     label:"Barbo Comizo",
+    img: new URL('../../../assets/especies/barbo-comizo.webp', import.meta.url).href,
+
     habitat: "Grandes ríos o embalses con fondo duro y cierta profundidad. Suele moverse en grupos.",
     profundidadPorEstacion: {
         primavera: "1–2 m",
@@ -45,6 +48,7 @@ const barboComizo = {
 const barboGitano = {
     value:"barbo-gitano",
     label:"Barbo Gitano",
+    img: new URL('../../../assets/especies/barbo-gitano.webp', import.meta.url).href,
     habitat: "Ríos y embalses del sur peninsular, aguas cálidas, fondo pedregoso o mixto.",
     profundidadPorEstacion: {
         primavera: "1–1.5 m",
