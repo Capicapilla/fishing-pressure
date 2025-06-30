@@ -5,7 +5,7 @@ const Especies = () => {
         <div>
            < EspeciesViewer/>
         </div>
-        <H1>Especies</H1>
+        <h1>Especies</h1>
         </>
     );
 };

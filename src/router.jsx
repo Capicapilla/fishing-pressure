@@ -3,6 +3,9 @@ import MainLayout from './layouts/MainLayout';
 
 import Home from './pages/Home';
 import Especies from './pages/Especies';
+import Logbook from './pages/LogBook';
+import Login from './pages/LogIn';
+import Register from './pages/Register';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
         path: 'especies',
         element: <Especies />,
       },
+      {
+        path: 'logbook',
+        element:<Logbook />
+      },
+      {
+        path: 'login',
+        element:<Login/>
+      },
+      {
+        path: 'register',
+        element: <Register/>
+      }
     ],
   },
 ]);
