@@ -1,11 +1,16 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 const MainLayout = () => {
+  const location = useLocation();
+
+  // Si estamos en login o en el registro→ no ponemos márgenes
+  const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
+
   return (
     <>
       <Navbar />
-      <main className="container py-4">
+      <main className={isAuthPage ? 'p-0 m-0 w-100' : 'container py-4'}>
         <Outlet />
       </main>
     </>
