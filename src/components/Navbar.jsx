@@ -1,4 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
+import { FaUserCircle } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -19,6 +21,7 @@ const Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navContent">
         <ul className="navbar-nav ms-auto">
+          
           <li className="nav-item">
             <NavLink className="nav-link" to="/">Inicio</NavLink>
           </li>
@@ -31,6 +34,12 @@ const Navbar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/login">Log In</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/profile">
+              <FaUserCircle size={22} className='me-1' />
+            </NavLink>
+          </li>
+          
         </ul>
       </div>
     </nav>
