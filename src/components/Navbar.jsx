@@ -29,6 +29,9 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/especies">Especies</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/planning">Planning</NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link" to="/logbook">Diario</NavLink>
           </li>
           <li className="nav-item">
@@ -39,6 +42,8 @@ const Navbar = () => {
               <FaUserCircle size={22} className='me-1' />
             </NavLink>
           </li>
+
+          
           
         </ul>
       </div>

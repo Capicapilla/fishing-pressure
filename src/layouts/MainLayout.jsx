@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 const MainLayout = () => {
   const location = useLocation();
 
-  // Si estamos en login o en el registro→ no ponemos márgenes
+  // Si estamos en login o en el registro NO SE PONEN MÁRGENES
   const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
 
   return (

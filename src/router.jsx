@@ -9,6 +9,8 @@ import Logbook from './pages/LogBook';
 import Login from './pages/LogIn';
 import Register from './pages/Register';
 import Profile from './pages/profile';
+import Planning from './pages/Planning';
+import ResultToFish from './pages/ResultToFish';
 
 
 const router = createBrowserRouter([
@@ -25,7 +27,7 @@ const router = createBrowserRouter([
         element: <Especies />,
       },
       {
-        element: <PrivateRoute />, // ✅ Rutas protegidas
+        element: <PrivateRoute />,//Rutas Privadas
         children: [
           {
             path: 'logbook',
@@ -34,12 +36,24 @@ const router = createBrowserRouter([
           {
             path: 'profile',
             element: <Profile />
+          },
+          {
+            path: 'planning',
+            element: <Planning/>
+          },
+          {
+            path: 'result-to-fish',
+            element: <ResultToFish/>
           }
         ]
       },
       {
-        element: <PublicRoute />, // ✅ Rutas solo para no logueados
+        element: <PublicRoute />, // Rutas Pública
         children: [
+          {
+            path:'home',
+            element:<Home/>
+          },
           {
             path: 'login',
             element: <Login />
